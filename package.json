@@ -1,0 +1,27 @@
+{
+  "name": "razorpay-functions",
+  "description": "For Accessing all razorpay functions",
+  "version": "0.0.1",
+  "main": "./dist/app.js",
+  "module": "./dist/app.mjs",
+  "types": "./dist/app.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "All Main Razorpay Methods",
+    "Withdrawal",
+    "Refund",
+    "Capture",
+    "Funding Account"
+  ],
+  "author": "celtic-67",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "razorpay": "^2.9.4"
+  }
+}
