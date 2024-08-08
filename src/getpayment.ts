@@ -1,7 +1,7 @@
 // getpayment.ts
-import { CheckPayment, payment, RZP } from "./types";
+import { CheckPayment, Payment, RZP } from "./types";
 
-export default async function getpayment(this: { razorpayInstance: RZP }, { paymentId }: CheckPayment): Promise<payment | null> {
+export default async function getpayment(this: { razorpayInstance: RZP }, { paymentId }: CheckPayment): Promise<Payment | null> {
     try {
         if (!paymentId) throw new Error("No Payment Id Found");
         if (!this.razorpayInstance) throw new Error("No instance created");

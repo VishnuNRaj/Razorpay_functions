@@ -1,7 +1,7 @@
 {
   "name": "razorpay-functions",
   "description": "For Accessing all razorpay functions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/app.js",
   "module": "./dist/app.mjs",
   "types": "./dist/app.d.ts",
