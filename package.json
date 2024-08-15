@@ -1,7 +1,7 @@
 {
   "name": "razorpay-functions",
   "description": "For Accessing all razorpay functions",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "main": "./dist/app.js",
   "module": "./dist/app.mjs",
   "types": "./dist/app.d.ts",
@@ -18,10 +18,13 @@
   "author": "celtic-67",
   "license": "MIT",
   "devDependencies": {
+    "razorpayx": "^1.0.3",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^22.2.0",
     "razorpay": "^2.9.4"
   }
 }
